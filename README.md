@@ -24,3 +24,9 @@
 - Sat Localities
 - Sat Periodicities
 - Sat Tax Regime
+
+## INSERTS
+
+- Cat Status
+- Roles
+- Sat Countries
