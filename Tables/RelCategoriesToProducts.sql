@@ -1,0 +1,8 @@
+CREATE TABLE RelCategoriesToProducts(
+    Id INT PRIMARY KEY IDENTITY(1,1) , 
+    CategoryId  INT NOT NULL , 
+    ProductId  INT NOT NULL , 
+    UserId INT NOT NULL , 
+    CreatedAt DATETIME NOT NULL DEFAULT GETDATE() , 
+    UpdatedAt DATETIME NOT NULL DEFAULT GETDATE() 
+)
