@@ -1,0 +1,28 @@
+CREATE TABLE Products(
+    Id  INT PRIMARY KEY IDENTITY(1,1) , 
+    Code VARCHAR(100) , 
+    Name VARCHAR(250) , 
+    Description VARCHAR(500) , 
+    Model VARCHAR(100) , 
+    ImageUrl VARCHAR(250) , 
+    Barcode  VARCHAR(50) , 
+    Price DECIMAL(18,2) ,
+    PriceWolesale DECIMAL(18,2) ,
+    PriceStockist DECIMAL(18,2) ,
+    PriceBox DECIMAL(18,2) ,
+    PriceVip DECIMAL(18,2) ,
+    LowerPrice DECIMAL(18,2) ,
+    width DECIMAL(18,2) ,
+    height DECIMAL(18,2) ,
+    weight DECIMAL(18,2) ,
+    EnableWeb int not null default 0 ,
+    EnableInvoice int not null default 0
+    SatUseCode VARCHAR(10)
+    SatUnitCode VARCHAR(10)
+    BrandId INT NOT NULL ,
+    StatusId INT NOT NULL ,
+    UserId INT NOT NULL , 
+    ExternalId INT NOT NULL DEFAULT 0 ,
+    CreatedAt DATETIME NOT NULL DEFAULT GETDATE() , 
+    UpdatedAt DATETIME NOT NULL DEFAULT GETDATE()
+)
