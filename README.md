@@ -9,3 +9,5 @@
 - Employees
 - Roles
 - Users
+- Fronter Routes
+- Products
