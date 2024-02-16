@@ -9,5 +9,8 @@
 - Employees
 - Roles
 - Users
-- Fronter Routes
+- Frontend Routes
+- Rel Frontend Routes to Roles
 - Products
+- Rel Categories to Products
+- Warehouses
