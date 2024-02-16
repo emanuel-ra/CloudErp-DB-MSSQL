@@ -1,4 +1,4 @@
-SET IDENTITY_INSERT CatStatus ON
+SET IDENTITY_INSERT SatCountries ON
 INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (1, 'AFG','Afganistán',1)
 INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (2, 'ALA','Islas Åland',1)
 INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (3, 'ALB','Albania',1)
@@ -249,4 +249,4 @@ INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (247, 'DJI','Yibuti',1)
 INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (248, 'ZMB','Zambia',1)
 INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (249, 'ZWE','Zimbabue',1)
 INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (250, 'ZZZ','Países no declarados',1)
-SET IDENTITY_INSERT CatStatus OFF
+SET IDENTITY_INSERT SatCountries OFF
