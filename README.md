@@ -14,3 +14,4 @@
 - Products
 - Rel Categories to Products
 - Warehouses
+- Customers
