@@ -24,6 +24,7 @@
 - Sat Localities
 - Sat Periodicities
 - Sat Tax Regime
+- Sat States
 
 ## INSERTS
 
