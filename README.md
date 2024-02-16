@@ -15,3 +15,12 @@
 - Rel Categories to Products
 - Warehouses
 - Customers
+- Sat Countries
+- Sat Zip Codes
+- Sat Localities
+- Sat Payment Method
+- Sat Payment Form
+- Sat Municipalities
+- Sat Localities
+- Sat Periodicities
+- Sat Tax Regime
