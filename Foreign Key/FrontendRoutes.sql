@@ -1,0 +1,1 @@
+ALTER TABLE FrontendRoutes ADD FOREIGN KEY (ParentId) REFERENCES FrontendRoutes(Id)
