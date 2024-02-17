@@ -1,4 +1,4 @@
-CREATE TABLE  (
+CREATE TABLE Categories(
     Id INT PRIMARY KEY IDENTITY(1,1) , 
     ParentId INT NOT NULL , 
     Name VARCHAR(250) , 
