@@ -3,4 +3,4 @@ ALTER TABLE RelRoleFrontRoutes ADD FOREIGN KEY (RoleId) REFERENCES Roles(Id)
 
 ALTER TABLE RelRoleFrontRoutes ADD FOREIGN KEY (RouteId) REFERENCES FrontendRoutes(Id)
 
-ALTER TABLE RelRoleFrontRoutes ADD FOREIGN KEY (UserId) REFERENCES (Id)
+ALTER TABLE RelRoleFrontRoutes ADD FOREIGN KEY (UserId) REFERENCES Users(Id)
