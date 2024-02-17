@@ -1,0 +1,1 @@
+ALTER TABLE Roles ADD FOREIGN KEY (StatusId) REFERENCES CatStatus(Id)
