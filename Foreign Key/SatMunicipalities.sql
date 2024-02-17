@@ -1,0 +1,1 @@
+ALTER TABLE SatMunicipalities ADD FOREIGN KEY (StatusId) REFERENCES CatStatus(Id)

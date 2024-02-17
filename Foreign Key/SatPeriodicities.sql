@@ -1,0 +1,1 @@
+ALTER TABLE SatPeriodicities ADD FOREIGN KEY (StatusId) REFERENCES CatStatus(Id)

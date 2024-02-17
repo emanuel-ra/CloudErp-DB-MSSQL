@@ -1,0 +1,1 @@
+ALTER TABLE SatPaymentMethod ADD FOREIGN KEY (StatusId) REFERENCES CatStatus(Id)

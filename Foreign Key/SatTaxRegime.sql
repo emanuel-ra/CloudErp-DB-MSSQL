@@ -1,0 +1,1 @@
+ALTER TABLE SatTaxRegime ADD FOREIGN KEY (StatusId) REFERENCES CatStatus(Id)
