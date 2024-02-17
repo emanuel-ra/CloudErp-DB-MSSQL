@@ -1,0 +1,2 @@
+ALTER TABLE Warehouses ADD FOREIGN KEY (StatusId) REFERENCES CatStatus(Id)
+ALTER TABLE Warehouses ADD FOREIGN KEY (BranchId) REFERENCES Branches(Id)
