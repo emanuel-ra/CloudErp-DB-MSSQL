@@ -5,7 +5,7 @@ CREATE TABLE Employees(
     ForeignName  VARCHAR(250) ,  
     Gender VARCHAR(20) , 
     Position VARCHAR(100) , 
-    Tel VARCHAR(20) , 
+    Telephone VARCHAR(20) , 
     ContactMobile VARCHAR(20) , 
     Email  VARCHAR(250) , 
     Address  VARCHAR(500) , 
