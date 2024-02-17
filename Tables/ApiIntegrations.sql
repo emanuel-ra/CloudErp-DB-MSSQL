@@ -1,0 +1,11 @@
+CREATE TABLE ApiIntegrations(
+    Id INT PRIMARY KEY IDENTITY(1,1) , 
+    Name VARCHAR(250) NOT NULL , 
+    Description VARCHAR(500) , 
+    Version VARCHAR(50) NOT NULL , 
+    BaseUrl VARCHAR(250) NOT NULL , 
+    StatusId INT NOT NULL , 
+    UserId INT NOT NULL ,
+    CreatedAt DATETIME NOT NULL DEFAULT GETDATE() , 
+    UpdatedAt DATETIME NOT NULL DEFAULT GETDATE() 
+)
