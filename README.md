@@ -38,17 +38,17 @@ In order to create correctly this database you should run the follow queries in 
 
 ## Status
 
-1.- Run: Table > CatStatus
-1.1.- Run: Insert > CatStatus
+1.- Run: Table > CatStatus <br>
+1.1.- Run: Insert > CatStatus <br>
 
 ## Countries 🏳
 
-2.- Run: Table > SatCountries
-2.2.- Run: Insert > SatCountries
-2.3.- Run: Foreign Key > SatCountries
+2.- Run: Table > SatCountries<br>
+2.2.- Run: Insert > SatCountries<br>
+2.3.- Run: Foreign Key > SatCountries<br>
 
 ## States
 
-2.- Run: Table > SatStates
-2.2.- Run: Insert > SatStates (MX,USA,CAN)
-2.3.- Run: Foreign Key > SatStates
+2.- Run: Table > SatStates<br>
+2.2.- Run: Insert > SatStates (MX,USA,CAN)<br>
+2.3.- Run: Foreign Key > SatStates<br>
