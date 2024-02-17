@@ -12,6 +12,7 @@ CREATE TABLE Customers(
     Commentary VARCHAR(500) ,
     CountryId INT NOT NULL ,     
     StateId INT NOT NULL , 
+    TaxId VARCHAR(20) ,
     TaxZipCode VARCHAR(10) ,
     TaxName VARCHAR(250) ,
     TaxEmail VARCHAR(250) ,
