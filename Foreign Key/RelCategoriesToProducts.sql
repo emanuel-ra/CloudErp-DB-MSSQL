@@ -2,4 +2,4 @@ ALTER TABLE RelCategoriesToProducts ADD FOREIGN KEY (CategoryId) REFERENCES Cate
 
 ALTER TABLE RelCategoriesToProducts ADD FOREIGN KEY (ProductId) REFERENCES Products(Id)
 
-ALTER TABLE RelCategoriesToProducts ADD FOREIGN KEY (UserId) REFERENCES (Id)
+ALTER TABLE RelCategoriesToProducts ADD FOREIGN KEY (UserId) REFERENCES Users(Id)
