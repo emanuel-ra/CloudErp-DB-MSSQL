@@ -1,0 +1,1 @@
+ALTER TABLE SatCountries ADD FOREIGN KEY (StatusId) REFERENCES CatStatus(Id)
