@@ -16,9 +16,9 @@ CREATE TABLE Products(
     height DECIMAL(18,2) ,
     weight DECIMAL(18,2) ,
     EnableWeb int not null default 0 ,
-    EnableInvoice int not null default 0
-    SatUseCode VARCHAR(10)
-    SatUnitCode VARCHAR(10)
+    EnableInvoice int not null default 0 ,
+    SatUseCode VARCHAR(10) ,
+    SatUnitCode VARCHAR(10) ,
     BrandId INT NOT NULL ,
     StatusId INT NOT NULL ,
     UserId INT NOT NULL , 
