@@ -100,9 +100,9 @@ In order to create correctly this database you should run the follow queries in 
 ## Products
 
 11.- Run: Table > Products<br>
-11.3.- Run: Foreign Key > Products<br>
+11.2.- Run: Foreign Key > Products<br>
 
 ## Relation Between Products And Categories
 
 12.- Run: Table > RelCategoriesToProducts<br>
-12.3.- Run: Foreign Key > RelCategoriesToProducts<br>
+12.2.- Run: Foreign Key > RelCategoriesToProducts<br>
