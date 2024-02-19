@@ -52,3 +52,41 @@ In order to create correctly this database you should run the follow queries in 
 2.- Run: Table > SatStates<br>
 2.2.- Run: Insert > SatStates (MX,USA,CAN)<br>
 2.3.- Run: Foreign Key > SatStates<br>
+
+## Roles
+
+3.- Run: Table > Roles<br>
+3.2.- Run: Insert > Roles<br>
+3.3.- Run: Foreign Key > Roles<br>
+
+## Users
+
+4.- Run: Table > Users<br>
+4.2.- Run: Foreign Key > Users<br>
+
+## Frontend Routes
+
+5.- Run: Table > FrontendRoutes<br>
+5.2.- Run: Foreign Key > FrontendRoutes<br>
+
+## Relation Role Frontend Routes
+
+6.- Run: Table > RelRoleFrontRoutes<br>
+6.2.- Run: Foreign Key > RelRoleFrontRoutes<br>
+
+## Companies
+
+7.- Run: Table > Companies<br>
+7.2.- Run: Insert > Companies<br>
+7.3.- Run: Foreign Key > Companies<br>
+
+## Branches
+
+8.- Run: Table > Branches<br>
+8.2.- Run: Foreign Key > Branches<br>
+
+## Brands
+
+9.- Run: Table > Brands<br>
+9.2.- Run: Insert > Brands<br>
+9.3.- Run: Foreign Key > Brands<br>

@@ -1,14 +1,14 @@
-CREATE TABLE Company(
+CREATE TABLE Companies(
     Id INT PRIMARY KEY IDENTITY(1,1) , 
     Name VARCHAR(250) , 
     LogoUrl VARCHAR(250) , 
-    Email
-    ContactEmail
-    ContactName
+    Email VARCHAR(250) , 
+    ContactEmail VARCHAR(250) , 
+    ContactName VARCHAR(250) , 
     TaxId  VARCHAR(20) , 
     TaxName VARCHAR(250) , 
     TaxRegimeCode VARCHAR(250) , 
-    TaxZipCode VARCHAR(5) 
+    TaxZipCode VARCHAR(5) ,
     TaxAddress VARCHAR(500) , 
     TaxEmail VARCHAR(250) ,
     StatusId INT NOT NULL , 
