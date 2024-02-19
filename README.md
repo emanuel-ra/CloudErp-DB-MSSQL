@@ -90,3 +90,19 @@ In order to create correctly this database you should run the follow queries in 
 9.- Run: Table > Brands<br>
 9.2.- Run: Insert > Brands<br>
 9.3.- Run: Foreign Key > Brands<br>
+
+## Categories
+
+10.- Run: Table > Categories<br>
+10.2.- Run: Insert > Categories<br>
+10.3.- Run: Foreign Key > Categories<br>
+
+## Products
+
+11.- Run: Table > Products<br>
+11.3.- Run: Foreign Key > Products<br>
+
+## Relation Between Products And Categories
+
+12.- Run: Table > RelCategoriesToProducts<br>
+12.3.- Run: Foreign Key > RelCategoriesToProducts<br>
