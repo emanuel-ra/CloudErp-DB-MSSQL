@@ -7,7 +7,7 @@ CREATE TABLE Products(
     ImageUrl VARCHAR(250) , 
     Barcode  VARCHAR(50) , 
     Price DECIMAL(18,2) ,
-    PriceWolesale DECIMAL(18,2) ,
+    PriceWholesale DECIMAL(18,2) ,
     PriceStockist DECIMAL(18,2) ,
     PriceBox DECIMAL(18,2) ,
     PriceVip DECIMAL(18,2) ,
