@@ -1,6 +1,6 @@
 CREATE TABLE FrontendRoutes(
     Id  INT PRIMARY KEY IDENTITY(1,1) , 
-    ParentId INT NOT NULL ,
+    ParentId INT ,
     Title VARCHAR(250) , 
     Path VARCHAR(250) , 
     Element VARCHAR(150) , 
