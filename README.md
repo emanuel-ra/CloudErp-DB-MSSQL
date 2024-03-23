@@ -106,3 +106,13 @@ In order to create correctly this database you should run the follow queries in 
 
 12.- Run: Table > RelCategoriesToProducts<br>
 12.2.- Run: Foreign Key > RelCategoriesToProducts<br>
+
+## Warehouses
+
+12.- Run: Table > Warehouses<br>
+12.2.- Run: Foreign Key > Warehouses<br>
+
+## Employees
+
+13.- Run: Table > Employees<br>
+13.2.- Run: Foreign Key > Employees<br>
