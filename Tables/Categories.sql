@@ -1,9 +1,9 @@
 CREATE TABLE Categories(
     Id INT PRIMARY KEY IDENTITY(1,1) , 
-    ParentId INT  , 
+    ParentId INT NOT NULL DEFAULT 0  , 
     Name VARCHAR(250) , 
     Logo VARCHAR(250) , 
-    IsEnableECommerce INT NOT NULL DEFAULT 0 ,
+    IsEnableEcommerce INT NOT NULL DEFAULT 0 ,
     StatusId INT NOT NULL ,
     UserId INT NOT NULL ,
     ExternalId INT NOT NULL DEFAULT 0 ,
