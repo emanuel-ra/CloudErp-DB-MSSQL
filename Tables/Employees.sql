@@ -1,5 +1,5 @@
 CREATE TABLE Employees(
-    Id INT PRIMARY KEY IDENTITY(1,1) , 
+    Id INT PRIMARY KEY AUTO_INCREMENT , 
     Code VARCHAR(50) , 
     Name VARCHAR(250) , 
     ForeignName  VARCHAR(250) ,  
@@ -13,6 +13,6 @@ CREATE TABLE Employees(
     Memo  VARCHAR(250) , 
     ExternalId INT NOT NULL DEFAULT 0 ,
     StatusId INT NOT NULL ,
-    CreatedAt DATETIME NOT NULL DEFAULT GETDATE() , 
-    UpdatedAt DATETIME NOT NULL DEFAULT GETDATE()
+    CreatedAt DATETIME NOT NULL DEFAULT NOW() , 
+    UpdatedAt DATETIME NOT NULL DEFAULT NOW()
 )

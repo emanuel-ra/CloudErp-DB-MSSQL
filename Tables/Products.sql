@@ -1,5 +1,5 @@
 CREATE TABLE Products(
-    Id  INT PRIMARY KEY IDENTITY(1,1) , 
+    Id  INT PRIMARY KEY AUTO_INCREMENT , 
     Code VARCHAR(100) , 
     Name VARCHAR(250) , 
     Description VARCHAR(500) , 
@@ -9,14 +9,14 @@ CREATE TABLE Products(
     Width DECIMAL(18,2) ,
     Height DECIMAL(18,2) ,
     Weight DECIMAL(18,2) ,
-    EnableWeb int not null default 0 ,
-    EnableInvoice int not null default 0 ,
+    EnableWeb INT NOT NULL DEFAULT 0 ,
+    EnableInvoice INT NOT NULL DEFAULT 0 ,
     SatUseCode VARCHAR(10) ,
     SatUnitCode VARCHAR(10) ,
     BrandId INT NOT NULL ,
     StatusId INT NOT NULL ,
     UserId INT NOT NULL , 
     ExternalId INT NOT NULL DEFAULT 0 ,
-    CreatedAt DATETIME NOT NULL DEFAULT GETDATE() , 
-    UpdatedAt DATETIME NOT NULL DEFAULT GETDATE()
+    CreatedAt DATETIME NOT NULL DEFAULT NOW() , 
+    UpdatedAt DATETIME NOT NULL DEFAULT NOW()
 )
