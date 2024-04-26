@@ -1,4 +1,4 @@
-CREATE TABLE SatPeriodicities(
+CREATE TABLE SatPeriodicity(
     Id INT PRIMARY KEY AUTO_INCREMENT ,
     Code VARCHAR(50) , 
     Name VARCHAR(250) , 
