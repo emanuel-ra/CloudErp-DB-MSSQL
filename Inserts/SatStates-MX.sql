@@ -1,34 +1,32 @@
-SET IDENTITY_INSERT SatStates ON
-INSERT INTO SatStates (Id,CountryId,Code,CountryCode,Name,StatusId) VALUES ( 1,151,'AGU','MEX','Aguascalientes',1)
-INSERT INTO SatStates (Id,CountryId,Code,CountryCode,Name,StatusId) VALUES ( 2,151,'BCN','MEX','Baja California',1)
-INSERT INTO SatStates (Id,CountryId,Code,CountryCode,Name,StatusId) VALUES ( 3,151,'BCS','MEX','Baja California Sur',1)
-INSERT INTO SatStates (Id,CountryId,Code,CountryCode,Name,StatusId) VALUES ( 4,151,'CAM','MEX','Campeche',1)
-INSERT INTO SatStates (Id,CountryId,Code,CountryCode,Name,StatusId) VALUES ( 5,151,'CHP','MEX','Chiapas',1)
-INSERT INTO SatStates (Id,CountryId,Code,CountryCode,Name,StatusId) VALUES ( 6,151,'CHH','MEX','Chihuahua',1)
-INSERT INTO SatStates (Id,CountryId,Code,CountryCode,Name,StatusId) VALUES ( 7,151,'COA','MEX','Coahuila',1)
-INSERT INTO SatStates (Id,CountryId,Code,CountryCode,Name,StatusId) VALUES ( 8,151,'COL','MEX','Colima',1)
-INSERT INTO SatStates (Id,CountryId,Code,CountryCode,Name,StatusId) VALUES ( 9,151,'DIF','MEX','Ciudad de México',1)
-INSERT INTO SatStates (Id,CountryId,Code,CountryCode,Name,StatusId) VALUES ( 10,151,'DUR','MEX','Durango',1)
-INSERT INTO SatStates (Id,CountryId,Code,CountryCode,Name,StatusId) VALUES ( 11,151,'GUA','MEX','Guanajuato',1)
-INSERT INTO SatStates (Id,CountryId,Code,CountryCode,Name,StatusId) VALUES ( 12,151,'GRO','MEX','Guerrero',1)
-INSERT INTO SatStates (Id,CountryId,Code,CountryCode,Name,StatusId) VALUES ( 13,151,'HID','MEX','Hidalgo',1)
-INSERT INTO SatStates (Id,CountryId,Code,CountryCode,Name,StatusId) VALUES ( 14,151,'JAL','MEX','Jalisco',1)
-INSERT INTO SatStates (Id,CountryId,Code,CountryCode,Name,StatusId) VALUES ( 15,151,'MEX','MEX','Estado de México',1)
-INSERT INTO SatStates (Id,CountryId,Code,CountryCode,Name,StatusId) VALUES ( 16,151,'MIC','MEX','Michoacán',1)
-INSERT INTO SatStates (Id,CountryId,Code,CountryCode,Name,StatusId) VALUES ( 17,151,'MOR','MEX','Morelos',1)
-INSERT INTO SatStates (Id,CountryId,Code,CountryCode,Name,StatusId) VALUES ( 18,151,'NAY','MEX','Nayarit',1)
-INSERT INTO SatStates (Id,CountryId,Code,CountryCode,Name,StatusId) VALUES ( 19,151,'NLE','MEX','Nuevo León',1)
-INSERT INTO SatStates (Id,CountryId,Code,CountryCode,Name,StatusId) VALUES ( 20,151,'OAX','MEX','Oaxaca',1)
-INSERT INTO SatStates (Id,CountryId,Code,CountryCode,Name,StatusId) VALUES ( 21,151,'PUE','MEX','Puebla',1)
-INSERT INTO SatStates (Id,CountryId,Code,CountryCode,Name,StatusId) VALUES ( 22,151,'QUE','MEX','Querétaro',1)
-INSERT INTO SatStates (Id,CountryId,Code,CountryCode,Name,StatusId) VALUES ( 23,151,'ROO','MEX','Quintana Roo',1)
-INSERT INTO SatStates (Id,CountryId,Code,CountryCode,Name,StatusId) VALUES ( 24,151,'SLP','MEX','San Luis Potosí',1)
-INSERT INTO SatStates (Id,CountryId,Code,CountryCode,Name,StatusId) VALUES ( 25,151,'SIN','MEX','Sinaloa',1)
-INSERT INTO SatStates (Id,CountryId,Code,CountryCode,Name,StatusId) VALUES ( 26,151,'SON','MEX','Sonora',1)
-INSERT INTO SatStates (Id,CountryId,Code,CountryCode,Name,StatusId) VALUES ( 27,151,'TAB','MEX','Tabasco',1)
-INSERT INTO SatStates (Id,CountryId,Code,CountryCode,Name,StatusId) VALUES ( 28,151,'TAM','MEX','Tamaulipas',1)
-INSERT INTO SatStates (Id,CountryId,Code,CountryCode,Name,StatusId) VALUES ( 29,151,'TLA','MEX','Tlaxcala',1)
-INSERT INTO SatStates (Id,CountryId,Code,CountryCode,Name,StatusId) VALUES ( 30,151,'VER','MEX','Veracruz',1)
-INSERT INTO SatStates (Id,CountryId,Code,CountryCode,Name,StatusId) VALUES ( 31,151,'YUC','MEX','Yucatán',1)
-INSERT INTO SatStates (Id,CountryId,Code,CountryCode,Name,StatusId) VALUES ( 32,151,'ZAC','MEX','Zacatecas',1)
-SET IDENTITY_INSERT SatStates OFF
+INSERT INTO SatStates (Id,CountryId,Code,CountryCode,Name,StatusId) VALUES ( 1,151,'AGU','MEX','Aguascalientes',1);
+INSERT INTO SatStates (Id,CountryId,Code,CountryCode,Name,StatusId) VALUES ( 2,151,'BCN','MEX','Baja California',1);
+INSERT INTO SatStates (Id,CountryId,Code,CountryCode,Name,StatusId) VALUES ( 3,151,'BCS','MEX','Baja California Sur',1);
+INSERT INTO SatStates (Id,CountryId,Code,CountryCode,Name,StatusId) VALUES ( 4,151,'CAM','MEX','Campeche',1);
+INSERT INTO SatStates (Id,CountryId,Code,CountryCode,Name,StatusId) VALUES ( 5,151,'CHP','MEX','Chiapas',1);
+INSERT INTO SatStates (Id,CountryId,Code,CountryCode,Name,StatusId) VALUES ( 6,151,'CHH','MEX','Chihuahua',1);
+INSERT INTO SatStates (Id,CountryId,Code,CountryCode,Name,StatusId) VALUES ( 7,151,'COA','MEX','Coahuila',1);
+INSERT INTO SatStates (Id,CountryId,Code,CountryCode,Name,StatusId) VALUES ( 8,151,'COL','MEX','Colima',1);
+INSERT INTO SatStates (Id,CountryId,Code,CountryCode,Name,StatusId) VALUES ( 9,151,'DIF','MEX','Ciudad de México',1);
+INSERT INTO SatStates (Id,CountryId,Code,CountryCode,Name,StatusId) VALUES ( 10,151,'DUR','MEX','Durango',1);
+INSERT INTO SatStates (Id,CountryId,Code,CountryCode,Name,StatusId) VALUES ( 11,151,'GUA','MEX','Guanajuato',1);
+INSERT INTO SatStates (Id,CountryId,Code,CountryCode,Name,StatusId) VALUES ( 12,151,'GRO','MEX','Guerrero',1);
+INSERT INTO SatStates (Id,CountryId,Code,CountryCode,Name,StatusId) VALUES ( 13,151,'HID','MEX','Hidalgo',1);
+INSERT INTO SatStates (Id,CountryId,Code,CountryCode,Name,StatusId) VALUES ( 14,151,'JAL','MEX','Jalisco',1);
+INSERT INTO SatStates (Id,CountryId,Code,CountryCode,Name,StatusId) VALUES ( 15,151,'MEX','MEX','Estado de México',1);
+INSERT INTO SatStates (Id,CountryId,Code,CountryCode,Name,StatusId) VALUES ( 16,151,'MIC','MEX','Michoacán',1);
+INSERT INTO SatStates (Id,CountryId,Code,CountryCode,Name,StatusId) VALUES ( 17,151,'MOR','MEX','Morelos',1);
+INSERT INTO SatStates (Id,CountryId,Code,CountryCode,Name,StatusId) VALUES ( 18,151,'NAY','MEX','Nayarit',1);
+INSERT INTO SatStates (Id,CountryId,Code,CountryCode,Name,StatusId) VALUES ( 19,151,'NLE','MEX','Nuevo León',1);
+INSERT INTO SatStates (Id,CountryId,Code,CountryCode,Name,StatusId) VALUES ( 20,151,'OAX','MEX','Oaxaca',1);
+INSERT INTO SatStates (Id,CountryId,Code,CountryCode,Name,StatusId) VALUES ( 21,151,'PUE','MEX','Puebla',1);
+INSERT INTO SatStates (Id,CountryId,Code,CountryCode,Name,StatusId) VALUES ( 22,151,'QUE','MEX','Querétaro',1);
+INSERT INTO SatStates (Id,CountryId,Code,CountryCode,Name,StatusId) VALUES ( 23,151,'ROO','MEX','Quintana Roo',1);
+INSERT INTO SatStates (Id,CountryId,Code,CountryCode,Name,StatusId) VALUES ( 24,151,'SLP','MEX','San Luis Potosí',1);
+INSERT INTO SatStates (Id,CountryId,Code,CountryCode,Name,StatusId) VALUES ( 25,151,'SIN','MEX','Sinaloa',1);
+INSERT INTO SatStates (Id,CountryId,Code,CountryCode,Name,StatusId) VALUES ( 26,151,'SON','MEX','Sonora',1);
+INSERT INTO SatStates (Id,CountryId,Code,CountryCode,Name,StatusId) VALUES ( 27,151,'TAB','MEX','Tabasco',1);
+INSERT INTO SatStates (Id,CountryId,Code,CountryCode,Name,StatusId) VALUES ( 28,151,'TAM','MEX','Tamaulipas',1);
+INSERT INTO SatStates (Id,CountryId,Code,CountryCode,Name,StatusId) VALUES ( 29,151,'TLA','MEX','Tlaxcala',1);
+INSERT INTO SatStates (Id,CountryId,Code,CountryCode,Name,StatusId) VALUES ( 30,151,'VER','MEX','Veracruz',1);
+INSERT INTO SatStates (Id,CountryId,Code,CountryCode,Name,StatusId) VALUES ( 31,151,'YUC','MEX','Yucatán',1);
+INSERT INTO SatStates (Id,CountryId,Code,CountryCode,Name,StatusId) VALUES ( 32,151,'ZAC','MEX','Zacatecas',1);
