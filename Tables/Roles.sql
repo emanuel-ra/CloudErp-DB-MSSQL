@@ -3,5 +3,5 @@ CREATE TABLE Roles(
     Name VARCHAR(250) , 
     StatusId INT NOT NULL , 
     CreatedAt DATETIME NOT NULL DEFAULT NOW() ,
-    UpdatedAt DATETIME NOT NULL DEFAULT NOW() , 
+    UpdatedAt DATETIME NOT NULL DEFAULT NOW() 
 )
