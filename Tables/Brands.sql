@@ -7,5 +7,5 @@ CREATE TABLE Brands(
     UserId INT NOT NULL , 
     ExternalId INT NOT NULL DEFAULT 0 ,
     CreatedAt DATETIME NOT NULL DEFAULT NOW() , 
-    UpdatedAt DATETIME NOT NULL DEFAULT NOW() , 
+    UpdatedAt DATETIME NOT NULL DEFAULT NOW()  
 )
