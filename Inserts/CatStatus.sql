@@ -1,64 +1,11 @@
-
-SET IDENTITY_INSERT CatStatus ON
-INSERT INTO CatStatus(Id,Name) 	VALUES (1,'Activo')
-SET IDENTITY_INSERT CatStatus OFF
-
-GO
-SET IDENTITY_INSERT CatStatus ON
-INSERT INTO CatStatus(Id,Name) 	VALUES (2,'Eliminado') 
-SET IDENTITY_INSERT CatStatus OFF
-
-GO 
-
-SET IDENTITY_INSERT CatStatus ON
-INSERT INTO CatStatus(Id,Name) 	VALUES (3,'Bloqueado') 
-SET IDENTITY_INSERT CatStatus OFF
-
-GO
-
-SET IDENTITY_INSERT CatStatus ON
-INSERT INTO CatStatus(Id,Name) 	VALUES (4,'Pendiente') 
-SET IDENTITY_INSERT CatStatus OFF
-
-GO
-
-SET IDENTITY_INSERT CatStatus ON
-INSERT INTO CatStatus(Id,Name) 	VALUES (5,'Vencido') 
-SET IDENTITY_INSERT CatStatus OFF
-
-GO
-
-SET IDENTITY_INSERT CatStatus ON
-INSERT INTO CatStatus(Id,Name) 	VALUES (6,'Cobro') 
-SET IDENTITY_INSERT CatStatus OFF
-
-GO 
-
-SET IDENTITY_INSERT CatStatus ON
-INSERT INTO CatStatus(Id,Name) 	VALUES (7,'Cobro Pendiente') 
-SET IDENTITY_INSERT CatStatus OFF
-
-GO
-
-SET IDENTITY_INSERT CatStatus ON
-INSERT INTO CatStatus(Id,Name) 	VALUES (8,'En Proceso')
-SET IDENTITY_INSERT CatStatus OFF
-
-GO
-
-SET IDENTITY_INSERT CatStatus ON
-INSERT INTO CatStatus(Id,Name) 	VALUES (9,'Finalizado')
-SET IDENTITY_INSERT CatStatus OFF
-	
-GO
-
-SET IDENTITY_INSERT CatStatus ON
-INSERT INTO CatStatus(Id,Name) 	VALUES (10,'Auditado') 
-SET IDENTITY_INSERT CatStatus OFF
-	
-GO
-
-SET IDENTITY_INSERT CatStatus ON
-INSERT INTO CatStatus(Id,Name) 	VALUES (11,'Recolección')
-SET IDENTITY_INSERT CatStatus OFF
-	
+INSERT INTO CatStatus(Id,Name) 	VALUES (1,'Activo');
+INSERT INTO CatStatus(Id,Name) 	VALUES (2,'Eliminado');
+INSERT INTO CatStatus(Id,Name) 	VALUES (3,'Bloqueado');
+INSERT INTO CatStatus(Id,Name) 	VALUES (4,'Pendiente');
+INSERT INTO CatStatus(Id,Name) 	VALUES (5,'Vencido');
+INSERT INTO CatStatus(Id,Name) 	VALUES (6,'Cobro');
+INSERT INTO CatStatus(Id,Name) 	VALUES (7,'Cobro Pendiente');
+INSERT INTO CatStatus(Id,Name) 	VALUES (8,'En Proceso');
+INSERT INTO CatStatus(Id,Name) 	VALUES (9,'Finalizado');
+INSERT INTO CatStatus(Id,Name) 	VALUES (10,'Auditado');
+INSERT INTO CatStatus(Id,Name) 	VALUES (11,'Recolección');

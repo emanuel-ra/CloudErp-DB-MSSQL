@@ -1,252 +1,250 @@
-SET IDENTITY_INSERT SatCountries ON
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (1, 'AFG','Afganistán',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (2, 'ALA','Islas Åland',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (3, 'ALB','Albania',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (4, 'DEU','Alemania',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (5, 'AND','Andorra',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (6, 'AGO','Angola',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (7, 'AIA','Anguila',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (8, 'ATA','Antártida',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (9, 'ATG','Antigua y Barbuda',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (10, 'SAU','Arabia Saudita',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (11, 'DZA','Argelia',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (12, 'ARG','Argentina',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (13, 'ARM','Armenia',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (14, 'ABW','Aruba',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (15, 'AUS','Australia',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (16, 'AUT','Austria',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (17, 'AZE','Azerbaiyán',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (18, 'BHS','Bahamas (las)',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (19, 'BGD','Bangladés',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (20, 'BRB','Barbados',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (21, 'BHR','Baréin',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (22, 'BEL','Bélgica',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (23, 'BLZ','Belice',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (24, 'BEN','Benín',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (25, 'BMU','Bermudas',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (26, 'BLR','Bielorrusia',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (27, 'MMR','Myanmar',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (28, 'BOL','Bolivia, Estado Plurinacional de',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (29, 'BIH','Bosnia y Herzegovina',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (30, 'BWA','Botsuana',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (31, 'BRA','Brasil',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (32, 'BRN','Brunéi Darussalam',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (33, 'BGR','Bulgaria',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (34, 'BFA','Burkina Faso',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (35, 'BDI','Burundi',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (36, 'BTN','Bután',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (37, 'CPV','Cabo Verde',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (38, 'KHM','Camboya',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (39, 'CMR','Camerún',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (40, 'CAN','Canadá',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (41, 'QAT','Catar',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (42, 'BES','Bonaire, San Eustaquio y Saba',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (43, 'TCD','Chad',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (44, 'CHL','Chile',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (45, 'CHN','China',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (46, 'CYP','Chipre',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (47, 'COL','Colombia',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (48, 'COM','Comoras',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (49, 'PRK','Corea (la República Democrática Popular de)',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (50, 'KOR','Corea (la República de)',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (51, 'CIV','Côte d''Ivoire',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (52, 'CRI','Costa Rica',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (53, 'HRV','Croacia',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (54, 'CUB','Cuba',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (55, 'CUW','Curaçao',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (56, 'DNK','Dinamarca',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (57, 'DMA','Dominica',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (58, 'ECU','Ecuador',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (59, 'EGY','Egipto',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (60, 'SLV','El Salvador',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (61, 'ARE','Emiratos Árabes Unidos (Los)',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (62, 'ERI','Eritrea',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (63, 'SVK','Eslovaquia',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (64, 'SVN','Eslovenia',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (65, 'ESP','España',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (66, 'USA','Estados Unidos (los)',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (67, 'EST','Estonia',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (68, 'ETH','Etiopía',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (69, 'PHL','Filipinas (las)',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (70, 'FIN','Finlandia',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (71, 'FJI','Fiyi',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (72, 'FRA','Francia',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (73, 'GAB','Gabón',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (74, 'GMB','Gambia (La)',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (75, 'GEO','Georgia',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (76, 'GHA','Ghana',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (77, 'GIB','Gibraltar',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (78, 'GRD','Granada',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (79, 'GRC','Grecia',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (80, 'GRL','Groenlandia',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (81, 'GLP','Guadalupe',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (82, 'GUM','Guam',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (83, 'GTM','Guatemala',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (84, 'GUF','Guayana Francesa',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (85, 'GGY','Guernsey',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (86, 'GIN','Guinea',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (87, 'GNB','Guinea-Bisáu',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (88, 'GNQ','Guinea Ecuatorial',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (89, 'GUY','Guyana',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (90, 'HTI','Haití',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (91, 'HND','Honduras',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (92, 'HKG','Hong Kong',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (93, 'HUN','Hungría',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (94, 'IND','India',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (95, 'IDN','Indonesia',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (96, 'IRQ','Irak',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (97, 'IRN','Irán (la República Islámica de)',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (98, 'IRL','Irlanda',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (99, 'BVT','Isla Bouvet',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (100, 'IMN','Isla de Man',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (101, 'CXR','Isla de Navidad',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (102, 'NFK','Isla Norfolk',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (103, 'ISL','Islandia',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (104, 'CYM','Islas Caimán (las)',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (105, 'CCK','Islas Cocos (Keeling)',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (106, 'COK','Islas Cook (las)',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (107, 'FRO','Islas Feroe (las)',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (108, 'SGS','Georgia del sur y las islas sandwich del sur',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (109, 'HMD','Isla Heard e Islas McDonald',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (110, 'FLK','Islas Malvinas [Falkland] (las)',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (111, 'MNP','Islas Marianas del Norte (las)',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (112, 'MHL','Islas Marshall (las)',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (113, 'PCN','Pitcairn',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (114, 'SLB','Islas Salomón (las)',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (115, 'TCA','Islas Turcas y Caicos (las)',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (116, 'UMI','Islas de Ultramar Menores de Estados Unidos (las)',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (117, 'VGB','Islas Vírgenes (Británicas)',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (118, 'VIR','Islas Vírgenes (EE.UU.)',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (119, 'ISR','Israel',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (120, 'ITA','Italia',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (121, 'JAM','Jamaica',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (122, 'JPN','Japón',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (123, 'JEY','Jersey',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (124, 'JOR','Jordania',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (125, 'KAZ','Kazajistán',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (126, 'KEN','Kenia',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (127, 'KGZ','Kirguistán',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (128, 'KIR','Kiribati',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (129, 'KWT','Kuwait',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (130, 'LAO','Lao, (la) República Democrática Popular',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (131, 'LSO','Lesoto',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (132, 'LVA','Letonia',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (133, 'LBN','Líbano',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (134, 'LBR','Liberia',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (135, 'LBY','Libia',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (136, 'LIE','Liechtenstein',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (137, 'LTU','Lituania',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (138, 'LUX','Luxemburgo',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (139, 'MAC','Macao',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (140, 'MDG','Madagascar',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (141, 'MYS','Malasia',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (142, 'MWI','Malaui',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (143, 'MDV','Maldivas',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (144, 'MLI','Malí',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (145, 'MLT','Malta',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (146, 'MAR','Marruecos',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (147, 'MTQ','Martinica',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (148, 'MUS','Mauricio',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (149, 'MRT','Mauritania',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (150, 'MYT','Mayotte',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (151, 'MEX','México',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (152, 'FSM','Micronesia (los Estados Federados de)',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (153, 'MDA','Moldavia (la República de)',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (154, 'MCO','Mónaco',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (155, 'MNG','Mongolia',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (156, 'MNE','Montenegro',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (157, 'MSR','Montserrat',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (158, 'MOZ','Mozambique',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (159, 'NAM','Namibia',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (160, 'NRU','Nauru',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (161, 'NPL','Nepal',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (162, 'NIC','Nicaragua',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (163, 'NER','Níger (el)',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (164, 'NGA','Nigeria',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (165, 'NIU','Niue',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (166, 'NOR','Noruega',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (167, 'NCL','Nueva Caledonia',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (168, 'NZL','Nueva Zelanda',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (169, 'OMN','Omán',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (170, 'NLD','Países Bajos (los)',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (171, 'PAK','Pakistán',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (172, 'PLW','Palaos',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (173, 'PSE','Palestina, Estado de',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (174, 'PAN','Panamá',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (175, 'PNG','Papúa Nueva Guinea',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (176, 'PRY','Paraguay',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (177, 'PER','Perú',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (178, 'PYF','Polinesia Francesa',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (179, 'POL','Polonia',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (180, 'PRT','Portugal',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (181, 'PRI','Puerto Rico',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (182, 'GBR','Reino Unido (el)',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (183, 'CAF','República Centroafricana (la)',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (184, 'CZE','República Checa (la)',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (185, 'MKD','Macedonia (la antigua República Yugoslava de)',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (186, 'COG','Congo',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (187, 'COD','Congo (la República Democrática del)',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (188, 'DOM','República Dominicana (la)',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (189, 'REU','Reunión',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (190, 'RWA','Ruanda',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (191, 'ROU','Rumania',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (192, 'RUS','Rusia, (la) Federación de',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (193, 'ESH','Sahara Occidental',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (194, 'WSM','Samoa',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (195, 'ASM','Samoa Americana',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (196, 'BLM','San Bartolomé',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (197, 'KNA','San Cristóbal y Nieves',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (198, 'SMR','San Marino',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (199, 'MAF','San Martín (parte francesa)',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (200, 'SPM','San Pedro y Miquelón',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (201, 'VCT','San Vicente y las Granadinas',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (202, 'SHN','Santa Helena, Ascensión y Tristán de Acuña',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (203, 'LCA','Santa Lucía',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (204, 'STP','Santo Tomé y Príncipe',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (205, 'SEN','Senegal',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (206, 'SRB','Serbia',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (207, 'SYC','Seychelles',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (208, 'SLE','Sierra leona',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (209, 'SGP','Singapur',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (210, 'SXM','Sint Maarten (parte holandesa)',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (211, 'SYR','Siria, (la) República Árabe',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (212, 'SOM','Somalia',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (213, 'LKA','Sri Lanka',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (214, 'SWZ','Suazilandia',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (215, 'ZAF','Sudáfrica',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (216, 'SDN','Sudán (el)',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (217, 'SSD','Sudán del Sur',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (218, 'SWE','Suecia',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (219, 'CHE','Suiza',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (220, 'SUR','Surinam',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (221, 'SJM','Svalbard y Jan Mayen',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (222, 'THA','Tailandia',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (223, 'TWN','Taiwán (Provincia de China)',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (224, 'TZA','Tanzania, República Unida de',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (225, 'TJK','Tayikistán',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (226, 'IOT','Territorio Británico del Océano Índico (el)',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (227, 'ATF','Territorios Australes Franceses (los)',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (228, 'TLS','Timor-Leste',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (229, 'TGO','Togo',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (230, 'TKL','Tokelau',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (231, 'TON','Tonga',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (232, 'TTO','Trinidad y Tobago',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (233, 'TUN','Túnez',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (234, 'TKM','Turkmenistán',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (235, 'TUR','Turquía',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (236, 'TUV','Tuvalu',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (237, 'UKR','Ucrania',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (238, 'UGA','Uganda',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (239, 'URY','Uruguay',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (240, 'UZB','Uzbekistán',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (241, 'VUT','Vanuatu',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (242, 'VAT','Santa Sede[Estado de la Ciudad del Vaticano] (la)',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (243, 'VEN','Venezuela, República Bolivariana de',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (244, 'VNM','Viet Nam',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (245, 'WLF','Wallis y Futuna',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (246, 'YEM','Yemen',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (247, 'DJI','Yibuti',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (248, 'ZMB','Zambia',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (249, 'ZWE','Zimbabue',1)
-INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (250, 'ZZZ','Países no declarados',1)
-SET IDENTITY_INSERT SatCountries OFF
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (1, 'AFG','Afganistán',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (2, 'ALA','Islas Åland',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (3, 'ALB','Albania',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (4, 'DEU','Alemania',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (5, 'AND','Andorra',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (6, 'AGO','Angola',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (7, 'AIA','Anguila',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (8, 'ATA','Antártida',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (9, 'ATG','Antigua y Barbuda',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (10, 'SAU','Arabia Saudita',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (11, 'DZA','Argelia',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (12, 'ARG','Argentina',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (13, 'ARM','Armenia',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (14, 'ABW','Aruba',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (15, 'AUS','Australia',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (16, 'AUT','Austria',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (17, 'AZE','Azerbaiyán',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (18, 'BHS','Bahamas (las)',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (19, 'BGD','Bangladés',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (20, 'BRB','Barbados',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (21, 'BHR','Baréin',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (22, 'BEL','Bélgica',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (23, 'BLZ','Belice',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (24, 'BEN','Benín',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (25, 'BMU','Bermudas',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (26, 'BLR','Bielorrusia',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (27, 'MMR','Myanmar',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (28, 'BOL','Bolivia, Estado Plurinacional de',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (29, 'BIH','Bosnia y Herzegovina',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (30, 'BWA','Botsuana',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (31, 'BRA','Brasil',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (32, 'BRN','Brunéi Darussalam',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (33, 'BGR','Bulgaria',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (34, 'BFA','Burkina Faso',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (35, 'BDI','Burundi',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (36, 'BTN','Bután',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (37, 'CPV','Cabo Verde',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (38, 'KHM','Camboya',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (39, 'CMR','Camerún',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (40, 'CAN','Canadá',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (41, 'QAT','Catar',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (42, 'BES','Bonaire, San Eustaquio y Saba',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (43, 'TCD','Chad',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (44, 'CHL','Chile',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (45, 'CHN','China',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (46, 'CYP','Chipre',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (47, 'COL','Colombia',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (48, 'COM','Comoras',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (49, 'PRK','Corea (la República Democrática Popular de)',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (50, 'KOR','Corea (la República de)',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (51, 'CIV','Côte d''Ivoire',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (52, 'CRI','Costa Rica',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (53, 'HRV','Croacia',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (54, 'CUB','Cuba',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (55, 'CUW','Curaçao',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (56, 'DNK','Dinamarca',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (57, 'DMA','Dominica',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (58, 'ECU','Ecuador',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (59, 'EGY','Egipto',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (60, 'SLV','El Salvador',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (61, 'ARE','Emiratos Árabes Unidos (Los)',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (62, 'ERI','Eritrea',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (63, 'SVK','Eslovaquia',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (64, 'SVN','Eslovenia',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (65, 'ESP','España',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (66, 'USA','Estados Unidos (los)',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (67, 'EST','Estonia',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (68, 'ETH','Etiopía',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (69, 'PHL','Filipinas (las)',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (70, 'FIN','Finlandia',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (71, 'FJI','Fiyi',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (72, 'FRA','Francia',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (73, 'GAB','Gabón',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (74, 'GMB','Gambia (La)',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (75, 'GEO','Georgia',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (76, 'GHA','Ghana',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (77, 'GIB','Gibraltar',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (78, 'GRD','Granada',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (79, 'GRC','Grecia',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (80, 'GRL','Groenlandia',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (81, 'GLP','Guadalupe',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (82, 'GUM','Guam',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (83, 'GTM','Guatemala',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (84, 'GUF','Guayana Francesa',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (85, 'GGY','Guernsey',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (86, 'GIN','Guinea',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (87, 'GNB','Guinea-Bisáu',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (88, 'GNQ','Guinea Ecuatorial',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (89, 'GUY','Guyana',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (90, 'HTI','Haití',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (91, 'HND','Honduras',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (92, 'HKG','Hong Kong',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (93, 'HUN','Hungría',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (94, 'IND','India',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (95, 'IDN','Indonesia',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (96, 'IRQ','Irak',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (97, 'IRN','Irán (la República Islámica de)',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (98, 'IRL','Irlanda',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (99, 'BVT','Isla Bouvet',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (100, 'IMN','Isla de Man',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (101, 'CXR','Isla de Navidad',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (102, 'NFK','Isla Norfolk',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (103, 'ISL','Islandia',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (104, 'CYM','Islas Caimán (las)',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (105, 'CCK','Islas Cocos (Keeling)',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (106, 'COK','Islas Cook (las)',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (107, 'FRO','Islas Feroe (las)',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (108, 'SGS','Georgia del sur y las islas sandwich del sur',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (109, 'HMD','Isla Heard e Islas McDonald',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (110, 'FLK','Islas Malvinas [Falkland] (las)',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (111, 'MNP','Islas Marianas del Norte (las)',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (112, 'MHL','Islas Marshall (las)',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (113, 'PCN','Pitcairn',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (114, 'SLB','Islas Salomón (las)',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (115, 'TCA','Islas Turcas y Caicos (las)',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (116, 'UMI','Islas de Ultramar Menores de Estados Unidos (las)',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (117, 'VGB','Islas Vírgenes (Británicas)',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (118, 'VIR','Islas Vírgenes (EE.UU.)',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (119, 'ISR','Israel',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (120, 'ITA','Italia',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (121, 'JAM','Jamaica',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (122, 'JPN','Japón',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (123, 'JEY','Jersey',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (124, 'JOR','Jordania',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (125, 'KAZ','Kazajistán',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (126, 'KEN','Kenia',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (127, 'KGZ','Kirguistán',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (128, 'KIR','Kiribati',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (129, 'KWT','Kuwait',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (130, 'LAO','Lao, (la) República Democrática Popular',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (131, 'LSO','Lesoto',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (132, 'LVA','Letonia',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (133, 'LBN','Líbano',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (134, 'LBR','Liberia',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (135, 'LBY','Libia',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (136, 'LIE','Liechtenstein',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (137, 'LTU','Lituania',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (138, 'LUX','Luxemburgo',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (139, 'MAC','Macao',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (140, 'MDG','Madagascar',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (141, 'MYS','Malasia',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (142, 'MWI','Malaui',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (143, 'MDV','Maldivas',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (144, 'MLI','Malí',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (145, 'MLT','Malta',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (146, 'MAR','Marruecos',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (147, 'MTQ','Martinica',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (148, 'MUS','Mauricio',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (149, 'MRT','Mauritania',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (150, 'MYT','Mayotte',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (151, 'MEX','México',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (152, 'FSM','Micronesia (los Estados Federados de)',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (153, 'MDA','Moldavia (la República de)',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (154, 'MCO','Mónaco',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (155, 'MNG','Mongolia',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (156, 'MNE','Montenegro',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (157, 'MSR','Montserrat',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (158, 'MOZ','Mozambique',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (159, 'NAM','Namibia',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (160, 'NRU','Nauru',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (161, 'NPL','Nepal',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (162, 'NIC','Nicaragua',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (163, 'NER','Níger (el)',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (164, 'NGA','Nigeria',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (165, 'NIU','Niue',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (166, 'NOR','Noruega',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (167, 'NCL','Nueva Caledonia',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (168, 'NZL','Nueva Zelanda',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (169, 'OMN','Omán',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (170, 'NLD','Países Bajos (los)',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (171, 'PAK','Pakistán',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (172, 'PLW','Palaos',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (173, 'PSE','Palestina, Estado de',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (174, 'PAN','Panamá',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (175, 'PNG','Papúa Nueva Guinea',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (176, 'PRY','Paraguay',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (177, 'PER','Perú',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (178, 'PYF','Polinesia Francesa',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (179, 'POL','Polonia',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (180, 'PRT','Portugal',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (181, 'PRI','Puerto Rico',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (182, 'GBR','Reino Unido (el)',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (183, 'CAF','República Centroafricana (la)',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (184, 'CZE','República Checa (la)',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (185, 'MKD','Macedonia (la antigua República Yugoslava de)',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (186, 'COG','Congo',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (187, 'COD','Congo (la República Democrática del)',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (188, 'DOM','República Dominicana (la)',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (189, 'REU','Reunión',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (190, 'RWA','Ruanda',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (191, 'ROU','Rumania',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (192, 'RUS','Rusia, (la) Federación de',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (193, 'ESH','Sahara Occidental',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (194, 'WSM','Samoa',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (195, 'ASM','Samoa Americana',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (196, 'BLM','San Bartolomé',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (197, 'KNA','San Cristóbal y Nieves',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (198, 'SMR','San Marino',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (199, 'MAF','San Martín (parte francesa)',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (200, 'SPM','San Pedro y Miquelón',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (201, 'VCT','San Vicente y las Granadinas',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (202, 'SHN','Santa Helena, Ascensión y Tristán de Acuña',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (203, 'LCA','Santa Lucía',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (204, 'STP','Santo Tomé y Príncipe',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (205, 'SEN','Senegal',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (206, 'SRB','Serbia',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (207, 'SYC','Seychelles',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (208, 'SLE','Sierra leona',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (209, 'SGP','Singapur',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (210, 'SXM','Sint Maarten (parte holandesa)',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (211, 'SYR','Siria, (la) República Árabe',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (212, 'SOM','Somalia',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (213, 'LKA','Sri Lanka',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (214, 'SWZ','Suazilandia',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (215, 'ZAF','Sudáfrica',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (216, 'SDN','Sudán (el)',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (217, 'SSD','Sudán del Sur',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (218, 'SWE','Suecia',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (219, 'CHE','Suiza',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (220, 'SUR','Surinam',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (221, 'SJM','Svalbard y Jan Mayen',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (222, 'THA','Tailandia',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (223, 'TWN','Taiwán (Provincia de China)',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (224, 'TZA','Tanzania, República Unida de',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (225, 'TJK','Tayikistán',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (226, 'IOT','Territorio Británico del Océano Índico (el)',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (227, 'ATF','Territorios Australes Franceses (los)',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (228, 'TLS','Timor-Leste',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (229, 'TGO','Togo',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (230, 'TKL','Tokelau',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (231, 'TON','Tonga',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (232, 'TTO','Trinidad y Tobago',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (233, 'TUN','Túnez',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (234, 'TKM','Turkmenistán',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (235, 'TUR','Turquía',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (236, 'TUV','Tuvalu',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (237, 'UKR','Ucrania',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (238, 'UGA','Uganda',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (239, 'URY','Uruguay',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (240, 'UZB','Uzbekistán',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (241, 'VUT','Vanuatu',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (242, 'VAT','Santa Sede[Estado de la Ciudad del Vaticano] (la)',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (243, 'VEN','Venezuela, República Bolivariana de',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (244, 'VNM','Viet Nam',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (245, 'WLF','Wallis y Futuna',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (246, 'YEM','Yemen',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (247, 'DJI','Yibuti',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (248, 'ZMB','Zambia',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (249, 'ZWE','Zimbabue',1);
+INSERT INTO SatCountries(Id,Code,Name,StatusId) VALUES (250, 'ZZZ','Países no declarados',1);

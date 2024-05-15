@@ -1,0 +1,7 @@
+CREATE TABLE ProductListPrice(
+    Id INT PRIMARY KEY AUTO_INCREMENT ,
+    Name VARCHAR(250) , 
+    Currency VARCHAR(5) , 
+    CreatedAt DATETIME NOT NULL DEFAULT NOW() , 
+    UpdatedAt DATETIME NOT NULL DEFAULT NOW()
+)
