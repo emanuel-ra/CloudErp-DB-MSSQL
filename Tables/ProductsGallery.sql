@@ -7,7 +7,7 @@ CREATE TABLE ProductsGallery(
     Format VARCHAR(10) ,    
     PublicId VARCHAR(200) ,    
     Url VARCHAR(500) ,
-    secureUrl VARCHAR(500) ,        
+    SecureUrl VARCHAR(500) ,        
     UserId INT NOT NULL , 
     CreatedAt DATETIME NOT NULL DEFAULT NOW() , 
     UpdatedAt DATETIME NOT NULL DEFAULT NOW()
