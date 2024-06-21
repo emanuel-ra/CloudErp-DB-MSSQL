@@ -1,7 +1,7 @@
 CREATE TABLE Customers(
     Id INT PRIMARY KEY IDENTITY(1,1) ,
     Code VARCHAR(50) NOT NULL , 
-    Name VARCHAR(250) NOT NULL , 
+    FirstName VARCHAR(250) NOT NULL , 
     LastName VARCHAR(250) NOT NULL , 
     Phone VARCHAR(15) , 
     Email VARCHAR(250) , 
