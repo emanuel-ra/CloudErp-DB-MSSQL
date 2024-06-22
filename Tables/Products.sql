@@ -1,5 +1,6 @@
 CREATE TABLE Products(
     Id  INT PRIMARY KEY IDENTITY(1,1) , 
+    AccountId INT NOT NULL , 
     Code VARCHAR(100) , 
     Name VARCHAR(250) , 
     Description VARCHAR(500) , 
