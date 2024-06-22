@@ -1,5 +1,6 @@
 CREATE TABLE Customers(
     Id INT PRIMARY KEY IDENTITY(1,1) ,
+    AccountId INT NOT NULL , 
     Code VARCHAR(50) NOT NULL , 
     FirstName VARCHAR(250) NOT NULL , 
     LastName VARCHAR(250) NOT NULL , 
@@ -19,7 +20,7 @@ CREATE TABLE Customers(
     TaxRegimeCode VARCHAR(50) ,
     TaxUseCode VARCHAR(50) ,   
     StatusId INT NOT NULL ,
-    UserId INT NOT NULL ,
+    UserId INT NOT NULL , 
     ExternalId INT NOT NULL DEFAULT 0 ,    
     CreatedAt DATETIME NOT NULL DEFAULT GETDATE() , 
     UpdatedAt DATETIME NOT NULL DEFAULT GETDATE()
