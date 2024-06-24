@@ -1,5 +1,6 @@
 CREATE TABLE ProductListPriceRelation(
     Id INT PRIMARY KEY IDENTITY(1,1) , 
+    AccountId INT NOT NULL ,
     PriceId INT NOT NULL , 
     ProductId INT NOT NULL , 
     Price DECIMAL(18,2) ,
