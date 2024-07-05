@@ -1,0 +1,2 @@
+ALTER TABLE Products ADD Length DECIMAL(18,2)
+ALTER TABLE Products ADD PiecesByBox VARCHAR(250) 

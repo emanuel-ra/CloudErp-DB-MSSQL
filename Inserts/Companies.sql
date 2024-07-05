@@ -1,0 +1,5 @@
+INSERT INTO Companies (AccountId, Name, LogoUrl, Email, ContactEmail, ContactName, TaxId, TaxName, TaxRegimeCode, TaxZipCode, TaxAddress, TaxEmail, StatusId, UserId, ExternalId, CreatedAt, UpdatedAt)
+VALUES 
+(1, 'LINK BITS', 'http://ejemplo.com/logo_empresa_a.png', 'linkbits@massivehome.com.mx', 'contacto@massivehome.com.mx', 'Juan Pérez', 'LBC1905098F2', 'LINK BITS COMERCIO ELECTRONICO', '601', '44100', 'Av. Principal #123, Colonia Centro, Ciudad', 'impuestos_empresa_a@example.com', 1, 1, 0, GETDATE(), GETDATE()),
+
+(1, 'Empresa B', 'http://ejemplo.com/logo_empresa_b.png', 'empresa_b@example.com', 'contacto_empresa_b@example.com', 'María Gómez', '0987654321', 'Empresa B S.A.P.I. de C.V.', '603', '54321', 'Calle Secundaria #456, Colonia Norte, Ciudad', 'impuestos_empresa_b@example.com', 1, 1, 0, GETDATE(), GETDATE());
