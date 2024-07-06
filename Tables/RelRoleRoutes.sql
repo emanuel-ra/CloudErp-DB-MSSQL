@@ -1,4 +1,4 @@
-CREATE TABLE RelRoleFrontRoutes(
+CREATE TABLE RelRoleRoutes(
     Id INT PRIMARY KEY IDENTITY(1,1) , 
     RoleId  INT NOT NULL , 
     RouteId  INT NOT NULL , 
