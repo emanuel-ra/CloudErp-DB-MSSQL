@@ -1,0 +1,10 @@
+CREATE TABLE Inventories (
+    Id INT PRIMARY KEY IDENTITY(1,1) , 
+    BranchId INT NOT NULL DEFAULT 0  , 
+    WarehouseId INT NOT NULL DEFAULT 0  , 
+    ProductCategoryId INT NOT NULL DEFAULT 0  , 
+    ProductId INT NOT NULL DEFAULT 0  , 
+    Stock INT NOT NULL DEFAULT 0 , 
+    CreatedAt DATETIME NOT NULL DEFAULT GETDATE() , 
+    UpdatedAt DATETIME NOT NULL DEFAULT GETDATE() 
+);

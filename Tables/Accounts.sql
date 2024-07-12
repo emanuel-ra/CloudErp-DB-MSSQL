@@ -1,5 +1,6 @@
 CREATE TABLE Accounts (
     Id INT PRIMARY KEY IDENTITY(1,1),
+    AccountId INT NOT NULL , 
     Name VARCHAR(250) NOT NULL,
     statusId INT NOT NULL DEFAULT 1,
     CreatedAt DATETIME NOT NULL,
