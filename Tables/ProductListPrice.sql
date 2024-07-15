@@ -3,6 +3,6 @@ CREATE TABLE ProductListPrice(
     AccountId INT NOT NULL , 
     Name VARCHAR(250) , 
     Currency VARCHAR(5) , 
-    CreatedAt DATETIME NOT NULL DEFAULT NOW() , 
-    UpdatedAt DATETIME NOT NULL DEFAULT NOW()
+    CreatedAt DATETIME NOT NULL DEFAULT GETDATE() , 
+    UpdatedAt DATETIME NOT NULL DEFAULT GETDATE()
 )
