@@ -9,3 +9,11 @@ INSERT INTO Warehouses (Code, Name, BranchId, Address, Contact, Telephone, IsLoc
 ('W008', 'Almacén de Exportación', 8, 'Puerto 505, Ciudad', 'Laura Sánchez', '123-456-7897', 0, 1, 4008, 1, GETDATE(), GETDATE()),
 ('W009', 'Almacén de Importación', 9, 'Zona Aduana 606, Ciudad', 'Roberto Castro', '123-456-7898', 0, 1, 4009, 1, GETDATE(), GETDATE()),
 ('W010', 'Almacén Temporario', 10, 'Zona Franca 707, Ciudad', 'Gabriela Martínez', '123-456-7899', 0, 1, 4010, 1, GETDATE(), GETDATE());
+
+
+
+INSERT INTO Warehouses (Code, Name, BranchId, Address, Contact, Telephone, IsLocked, EnableToDownloadStock, ExternalId, StatusId, CreatedAt, UpdatedAt) VALUES
+('W0011', 'Almacén Central', 15 'Calle Principal 123, Ciudad', 'Juan Pérez', '123-456-7890', 0, 1, 4001, 1, GETDATE(), GETDATE()),
+('W0012', 'Almacén Norte', 15, 'Avenida Norte 456, Ciudad', 'María Gómez', '123-456-7891', 0, 1, 4002, 1, GETDATE(), GETDATE()),
+('W0013', 'Almacén Sur', 16, 'Calle Sur 789, Ciudad', 'Carlos López', '123-456-7892', 0, 1, 4003, 1, GETDATE(), GETDATE()),
+
