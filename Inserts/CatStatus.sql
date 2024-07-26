@@ -62,3 +62,38 @@ SET IDENTITY_INSERT CatStatus ON
 INSERT INTO CatStatus(Id,Name) 	VALUES (11,'Recolección')
 SET IDENTITY_INSERT CatStatus OFF
 	
+GO
+
+SET IDENTITY_INSERT CatStatus ON
+INSERT INTO CatStatus(Id,Name) 	VALUES (12,'Empacado En Proceso')
+SET IDENTITY_INSERT CatStatus OFF
+
+GO
+
+SET IDENTITY_INSERT CatStatus ON
+INSERT INTO CatStatus(Id,Name) 	VALUES (13,'Empacado Finalizado')
+SET IDENTITY_INSERT CatStatus OFF
+
+GO
+
+SET IDENTITY_INSERT CatStatus ON
+INSERT INTO CatStatus(Id,Name) 	VALUES (14,'Guia En Proceso')
+SET IDENTITY_INSERT CatStatus OFF
+	
+GO
+
+SET IDENTITY_INSERT CatStatus ON
+INSERT INTO CatStatus(Id,Name) 	VALUES (15,'Guia Generada')
+SET IDENTITY_INSERT CatStatus OFF
+
+GO
+
+SET IDENTITY_INSERT CatStatus ON
+INSERT INTO CatStatus(Id,Name) 	VALUES (16,'Guia Pegada')
+SET IDENTITY_INSERT CatStatus OFF
+
+GO
+
+SET IDENTITY_INSERT CatStatus ON
+INSERT INTO CatStatus(Id,Name) 	VALUES (17,'Archivado')
+SET IDENTITY_INSERT CatStatus OFF

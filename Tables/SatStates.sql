@@ -1,4 +1,4 @@
-CREATE TABLE SatStates(
+CREATE TABLE SatState(
     Id INT PRIMARY KEY IDENTITY(1,1) ,
     CountryId INT NOT NULL , 
     Code VARCHAR(50) NOT NULL ,

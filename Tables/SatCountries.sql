@@ -1,4 +1,4 @@
-CREATE TABLE SatCountries(
+CREATE TABLE SatCountry(
     Id INT PRIMARY KEY IDENTITY(1,1) ,
     Code VARCHAR(50) , 
     Name VARCHAR(250) , 
