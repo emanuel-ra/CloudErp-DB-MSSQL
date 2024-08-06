@@ -12,6 +12,7 @@ CREATE TABLE Quotation(
     Total_of_assured decimal(16, 6) NULL,
     Is_checkplus int NOT NULL,
     Is_deliver int NOT NULL,
+    RequirePacking INT NOT NULL ,
     Created_at datetime NOT NULL,
     Updated_at datetime NOT NULL,
     AddressID int NULL,

@@ -1,0 +1,2 @@
+
+ALTER TABLE OrderPickAssign ADD LocationId INT NOT NULL DEFAULT 0

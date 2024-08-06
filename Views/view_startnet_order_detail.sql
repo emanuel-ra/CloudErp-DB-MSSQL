@@ -1,4 +1,4 @@
-CREATE VIEW view_startnet_order_detail
+CREATE VIEW ViewStartnetOrderDetail
 AS 
 	SELECT 
 		A.id as Id ,

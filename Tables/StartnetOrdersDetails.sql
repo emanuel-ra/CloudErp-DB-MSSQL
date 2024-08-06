@@ -1,5 +1,5 @@
 CREATE TABLE StartnetOrdersDetails(
-    id INT PRIMARY KEY IDENTITY(1,1) ,,
+    id INT PRIMARY KEY IDENTITY(1,1) ,
     ExternalID int,
     OrderID int NULL,
     ProductID int NULL,
