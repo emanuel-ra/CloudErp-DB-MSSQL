@@ -1,6 +1,6 @@
 CREATE TABLE RelRoleWarehouse (
     Id INT PRIMARY KEY IDENTITY(1,1),
-    RoleId VARCHAR(250) NOT NULL,
+    RoleId INT NOT NULL,
     WarehouseId INT NOT NULL DEFAULT 1,
     IsDefault INT NOT NULL , 
     CreatedAt DATETIME2 NOT NULL DEFAULT GETDATE(),
