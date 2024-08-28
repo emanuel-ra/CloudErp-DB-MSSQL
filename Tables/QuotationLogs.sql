@@ -4,7 +4,7 @@ CREATE TABLE QuotationLogs (
     MovementType VARCHAR(50) NOT NULL,
     Description VARCHAR(500) NULL,    
 	JsonData NVARCHAR(MAX) ,
-    UserID INT NOT NULL,
+    UserId INT NOT NULL,
 	CreatedAt DATETIME2 NOT NULL DEFAULT GETDATE() ,       
 	CHECK(MovementType IN('INSERT','UPDATE','DELETE'))
 );
