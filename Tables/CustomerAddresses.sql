@@ -10,5 +10,9 @@ CREATE TABLE CustomerAddresses(
         InteriorNumber varchar(50) NULL,
         Commentary varchar(1000) NULL,
         Phone varchar(200) NULL ,
-        ExternalId int NULL       
+        ExternalId int NULL ,
+        StatusId int not null default 1 , 
+        CreatedAt DATETIME2 NOT NULL DEFAULT GETDATE() ,
+        UpdatedAt DATETIME2 NOT NULL DEFAULT GETDATE() ,
+        UserId INT NOT NULL
 ) 

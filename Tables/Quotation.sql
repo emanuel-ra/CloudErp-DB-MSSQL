@@ -5,6 +5,8 @@ CREATE TABLE Quotation(
     UserID int NULL,
     StatusID int NULL,
     Commentary varchar(500) NULL,
+    CompanyID INT NOT NULL ,
+    ShippingCompany VARCHAR(50) ,
     Price_type int NOT NULL,
     Quantity int NULL,
     Total decimal(16, 6) NULL,
