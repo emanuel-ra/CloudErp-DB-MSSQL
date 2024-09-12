@@ -17,6 +17,7 @@ CREATE TABLE Payments (
     ValidateAt DATETIME ,
     InitValid DATETIME , 
     EndOrder DATETIME, 
+    PaymentDate DATETIME,
     CreatedAt DATETIME NOT NULL DEFAULT GETDATE() , 
     UpdatedAt DATETIME NOT NULL DEFAULT GETDATE() ,     
     StatusId INT NOT NULL DEFAULT 1

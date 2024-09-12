@@ -97,3 +97,69 @@ GO
 SET IDENTITY_INSERT CatStatus ON
 INSERT INTO CatStatus(Id,Name) 	VALUES (17,'Archivado')
 SET IDENTITY_INSERT CatStatus OFF
+
+GO
+
+SET IDENTITY_INSERT CatStatus ON
+INSERT INTO CatStatus(Id,Name) 	VALUES (18,'Pago Sin Proceso')
+SET IDENTITY_INSERT CatStatus OFF
+
+GO
+
+SET IDENTITY_INSERT CatStatus ON
+INSERT INTO CatStatus(Id,Name) 	VALUES (19,'Cancelado')
+SET IDENTITY_INSERT CatStatus OFF
+
+GO
+
+SET IDENTITY_INSERT CatStatus ON
+INSERT INTO CatStatus(Id,Name) 	VALUES (20,'Pago Validado')
+SET IDENTITY_INSERT CatStatus OFF
+
+GO
+
+SET IDENTITY_INSERT CatStatus ON
+INSERT INTO CatStatus(Id,Name) 	VALUES (21,'Validado Por Seguridad')
+SET IDENTITY_INSERT CatStatus OFF
+
+GO
+
+SET IDENTITY_INSERT CatStatus ON
+INSERT INTO CatStatus(Id,Name) 	VALUES (22,'Pago no valido')
+SET IDENTITY_INSERT CatStatus OFF
+
+GO
+
+SET IDENTITY_INSERT CatStatus ON
+INSERT INTO CatStatus(Id,Name) 	VALUES (23,'Agotados')
+SET IDENTITY_INSERT CatStatus OFF
+
+GO
+
+SET IDENTITY_INSERT CatStatus ON
+INSERT INTO CatStatus(Id,Name) 	VALUES (24,'Agotados y por llegar')
+SET IDENTITY_INSERT CatStatus OFF
+
+GO
+
+SET IDENTITY_INSERT CatStatus ON
+INSERT INTO CatStatus(Id,Name) 	VALUES (25,'Surtido')
+SET IDENTITY_INSERT CatStatus OFF
+
+GO
+
+SET IDENTITY_INSERT CatStatus ON
+INSERT INTO CatStatus(Id,Name) 	VALUES (26,'Pendiente por validar')
+SET IDENTITY_INSERT CatStatus OFF
+
+GO
+
+SET IDENTITY_INSERT CatStatus ON
+INSERT INTO CatStatus(Id,Name) 	VALUES (27,'En Proceso de Validación')
+SET IDENTITY_INSERT CatStatus OFF
+
+GO
+
+SET IDENTITY_INSERT CatStatus ON
+INSERT INTO CatStatus(Id,Name) 	VALUES (28,'Pedido Validado')
+SET IDENTITY_INSERT CatStatus OFF
