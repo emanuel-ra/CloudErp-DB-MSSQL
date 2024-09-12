@@ -1,0 +1,12 @@
+CREATE TABLE JobPositions (
+    Id INT PRIMARY KEY IDENTITY(1,1),
+    AccountId INT NOT NULL , 
+    Title VARCHAR(100) NOT NULL,    
+    Description VARCHAR(500) NULL,
+    DepartmentId INT NOT NULL,
+    StatusId INT NOT NULL DEFAULT 1 , 
+    CreatedAt DATETIME2 NOT NULL DEFAULT GETDATE(),
+    UpdatedAt DATETIME2 NOT NULL DEFAULT GETDATE() 
+);
+
+-- CONSTRAINT FK_DepartmentId FOREIGN KEY (DepartmentId) REFERENCES Departments(Id)
