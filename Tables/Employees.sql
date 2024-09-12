@@ -46,12 +46,6 @@ CREATE TABLE Employees(
 )
 
 /*
-TODO:
- * CREATE: Table to register their family
- * CREATE: Table to register their department
- * CREATE: Table to register their Position
- * CREATE: Table to register their Scholarship
- * CREATE: Table to register their Marital status
- * CREATE: Table to register their Schedules
- * CREATE: Table to register their  Dismissal Types 
+TODO: 
+ * CREATE: Table to register their Schedules 
 */
