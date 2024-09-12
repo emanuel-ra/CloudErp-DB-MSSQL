@@ -2,6 +2,7 @@ CREATE TABLE Companies(
     Id INT PRIMARY KEY IDENTITY(1,1) , 
     AccountId INT NOT NULL , 
     Name VARCHAR(250) , 
+    ImagePublicId varchar(255),
     LogoUrl VARCHAR(250) , 
     Email VARCHAR(250) , 
     ContactEmail VARCHAR(250) , 
