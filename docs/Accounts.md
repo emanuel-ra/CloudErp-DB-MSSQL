@@ -10,7 +10,7 @@ The `Accounts` table stores information about accounts within the system. Below 
 | `CreatedAt` | `DATETIME`     | NOT NULL                   | Timestamp when the account was created.      |
 | `UpdatedAt` | `DATETIME`     | NOT NULL                   | Timestamp when the account was last updated. |
 
-### Notes
+## Notes
 
 - **Data Types**: Ensure that the data types are appropriate for the data being stored.
 - **Default Values**: `StatusId` is set to default to `1`, which may represent an active status or similar. Adjust based on your application’s status definitions.
