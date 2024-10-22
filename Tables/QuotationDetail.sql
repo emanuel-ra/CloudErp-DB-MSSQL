@@ -13,3 +13,24 @@ CREATE TABLE QuotationDetail(
 	Preorder bit NULL,
 	LarkID varchar(1000) NULL
 )
+
+-- 
+
+CREATE TABLE QuotationDetail(
+	Id INT PRIMARY KEY IDENTITY(1,1) ,
+	QuoteId INT NOT NULL ,
+	ProductId INT NULL ,
+	BranchId INT NOT NULL ,
+	WarehouseId INT NOT NULL ,
+	Quantity INT NOT NULL DEFAULT 0 ,
+	Price DECIMAL(16, 6) NULL ,	
+	SubTotal DECIMAL(16, 6) NULL ,
+	Discount DECIMAL(16, 6) NULL ,
+	Total DECIMAL(16, 6) NULL ,
+	Comments VARCHAR(500) NULL ,
+	IsModified BIT NOT NULL DEFAULT 0 ,
+	IsService BIT NOT NULL DEFAULT 0 ,
+	PreOrder BIT NOT NULL DEFAULT 0 ,
+	CreatedAt DATETIME2 NOT NULL DEFAULT GETDATE() ,
+    UpdatedAt DATETIME2 NOT NULL DEFAULT GETDATE()
+)

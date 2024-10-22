@@ -1,9 +1,9 @@
 CREATE TABLE BankPayments
 (
-    Id INT PRIMARY KEY IDENTITY(1,1) ,       
-    Folio AS ('PD-' + CAST(Id AS VARCHAR(16)), 
+    Id INT PRIMARY KEY IDENTITY(1,1) ,  
     AccountId INT NOT NULL ,
     CustomerId INT NOT NULL ,
+    QuoteId INT NOT NULL , 
     AccountName VARCHAR(200) , 
     BankName VARCHAR(500) , 
     PaymentMethod VARCHAR(500) , 
