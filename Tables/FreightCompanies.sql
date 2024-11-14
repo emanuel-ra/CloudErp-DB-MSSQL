@@ -12,5 +12,6 @@ CREATE TABLE FreightCompanies (
     TaxID NVARCHAR(50) NULL,                         -- Tax identification number
 	FixedCost decimal(16, 6) NOT NULL DEFAULT 0 ,	 -- Fixed cost 
     CreatedAt DATETIME2 DEFAULT SYSDATETIME(),       -- Record creation timestamp
-    UpdatedAt DATETIME2 DEFAULT SYSDATETIME()        -- Last updated timestamp
+    UpdatedAt DATETIME2 DEFAULT SYSDATETIME(),
+    UserId INT NOT NULL         -- Last updated timestamp
 );

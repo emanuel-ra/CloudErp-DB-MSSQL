@@ -1,0 +1,1 @@
+ALTER TABLE FreightCompanies ADD UserId INT NOT NULL 

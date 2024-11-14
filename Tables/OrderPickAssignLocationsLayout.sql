@@ -1,0 +1,8 @@
+CREATE TABLE OrderPickAssignLocationsLayout(
+	Id INT PRIMARY KEY IDENTITY(1,1) , 
+	AssignedId INT NOT NULL , 
+	OrderId INT NOT NULL , 
+	LocationId INT NOT NULL , 
+	CreatedAt DATETIME2 NOT NULL DEFAULT GETDATE() , 
+	UpdatedAt DATETIME2 NOT NULL DEFAULT GETDATE() 
+)
