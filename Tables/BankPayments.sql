@@ -22,5 +22,8 @@ CREATE TABLE BankPayments
     CreatedAt DATETIME NOT NULL DEFAULT GETDATE() , 
     UpdatedAt DATETIME NOT NULL DEFAULT GETDATE() ,     
     StatusId INT NOT NULL DEFAULT 1 ,
-    IsPaymentValid BIT NOT NULL DEFAULT 0
+    IsPaymentValid BIT NOT NULL DEFAULT 0 ,
+    Reference varchar(250) NULL,
+	UnvalidatedAt datetime NULL,
+	BankAccountsId int NULL
 )

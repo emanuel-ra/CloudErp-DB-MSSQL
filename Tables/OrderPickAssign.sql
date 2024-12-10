@@ -31,7 +31,10 @@ CREATE TABLE OrderPickAssign(
 	ValidatedbyUserId int NULL,
 	ValidateAtAssign datetime2(7) NULL,
 	ValidationAssignByUserId int NULL,
-	ValidatedObservations varchar(500) NULL
+	ValidatedObservations varchar(500) NULL ,
+	NumberOfPallets INT  ,
+	TableNumber VARCHAR(100) ,
+	EstimateDeliveredDate DATE
 ) 
 
 

@@ -28,3 +28,9 @@ GO
 INSERT INTO Actions(Name) VALUES ('cancel')
 GO
 INSERT INTO Actions(Name) VALUES ('print')
+GO
+INSERT INTO Actions(Name) VALUES ('update-quantity')
+GO
+INSERT INTO Actions(Name) VALUES ('update-price')
+GO
+INSERT INTO Actions(Name) VALUES ('apply-discount')
