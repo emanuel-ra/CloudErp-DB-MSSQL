@@ -10,49 +10,60 @@ BEGIN
         SELECT i.ID, 'INSERT', 'new-quote-inserted', 
 				(
 					SELECT 
-						A.ID AS Id ,
-						A.CustomerID AS CustomerId ,
-						E.Code , 
-						CONCAT(E.FirstName,' ',E.LastName) AS CustomerFullName , 
-						D.Name ,
-						A.UserID AS UserId ,
-						A.StatusID AS StatusId ,
+						A.Id ,
+						A.CompanyId ,
+						A.CustomerId ,
+						A.SellerId ,
+						A.UserId ,
+						A.StatusId ,
+						A.PriceListId ,
+						A.RequiredDeliver ,
+						A.DeliveryTypeId ,
+						A.ParcelServiceId ,
+						A.FreightCompanyId ,
+						A.RequiredInvoice ,
+						A.RequiredCheckPlus ,
+						A.RequiredPacking ,
+						A.RequiredSafeguard ,
+						A.Quantity ,
+						A.DeliverAmount ,
+						A.CheckPlusAmount ,
+						A.SafeguardAmount ,
+						A.DiscountAmount ,
+						A.SubTotal ,
+						A.Total ,
+						A.Address ,
+						A.ZipCode ,
+						A.Region ,
+						A.State ,
+						A.City ,
+						A.ExteriorNumber ,
+						A.InteriorNumber ,
+						A.Phone ,
+						A.Commentary ,
+						A.Observations ,
+						A.IsOrder ,
+						A.CreatedAt ,
+						A.UpdatedAt ,
+						A.Folio ,
+
 						B.Name AS StatusName ,
-						A.Commentary AS Commentary ,
-						A.Price_type AS PriceId ,
-						C.Name AS PriceName ,
-						A.Quantity AS Quantity ,
-						A.Total AS Total ,
-						A.Total_deliver AS TotalDeliver ,
-						A.Total_of_assured AS TotalOfAssured ,
-						A.Is_checkplus AS IsCheckPlus ,
-						A.Is_deliver AS IsDeliver ,
-						A.Created_at AS CreatedAt ,
-						A.Updated_at AS UpdatedAt ,
-						A.Is_packed AS IsPacked ,
-						A.Detail_packed AS DetailPacked ,					
-						A.IsModified AS IsModified ,
-						A.Total_initial AS TotalInitial ,
-						A.CompanyID AS CompanyId ,
-						A.ShippingCompany ,
-						A.RequirePacking ,
-						A.Address AS Address ,
-						A.ZipCode AS ZipCode ,
-						A.Region AS Region ,
-						A.State AS State ,
-						A.City AS City ,
-						A.ExteriorNumber AS ExteriorNumber ,
-						A.InteriorNumber AS InteriorNumber ,
-						A.Phone AS Phone 
+
+						C.Name AS PriceListName ,
+
+						D.Name AS UserName ,
+
+						E.Code AS CustomerCode ,
+						CONCAT(E.FirstName,' ',E.LastName) AS CustomerFullName 
 					FROM inserted AS A 
 						LEFT OUTER JOIN CatStatus B
-							ON A.StatusID = B.Id
+							ON A.StatusId = B.Id
 						LEFT OUTER JOIN ProductListPrice C 
-							ON A.Price_type = C.Id 
+							ON A.PriceListId = C.Id 
 						LEFT OUTER JOIN Users D
-							ON A.UserID = B.Id 
+							ON A.UserId = B.Id 
 						LEFT OUTER JOIN Customers E
-							ON A.CustomerID = E.Id 
+							ON A.CustomerId = E.Id 
 					FOR JSON PATH
 				), i.UserId
         FROM inserted i;
@@ -65,49 +76,60 @@ BEGIN
         SELECT i.ID, 'UPDATE', 'quote-updated', 
 				(
 					SELECT 
-						A.ID AS Id ,
-						A.CustomerID AS CustomerId ,
-						E.Code , 
-						CONCAT(E.FirstName,' ',E.LastName) AS CustomerFullName , 
-						D.Name ,
-						A.UserID AS UserId ,
-						A.StatusID AS StatusId ,
+						A.Id ,
+						A.CompanyId ,
+						A.CustomerId ,
+						A.SellerId ,
+						A.UserId ,
+						A.StatusId ,
+						A.PriceListId ,
+						A.RequiredDeliver ,
+						A.DeliveryTypeId ,
+						A.ParcelServiceId ,
+						A.FreightCompanyId ,
+						A.RequiredInvoice ,
+						A.RequiredCheckPlus ,
+						A.RequiredPacking ,
+						A.RequiredSafeguard ,
+						A.Quantity ,
+						A.DeliverAmount ,
+						A.CheckPlusAmount ,
+						A.SafeguardAmount ,
+						A.DiscountAmount ,
+						A.SubTotal ,
+						A.Total ,
+						A.Address ,
+						A.ZipCode ,
+						A.Region ,
+						A.State ,
+						A.City ,
+						A.ExteriorNumber ,
+						A.InteriorNumber ,
+						A.Phone ,
+						A.Commentary ,
+						A.Observations ,
+						A.IsOrder ,
+						A.CreatedAt ,
+						A.UpdatedAt ,
+						A.Folio ,
+
 						B.Name AS StatusName ,
-						A.Commentary AS Commentary ,
-						A.Price_type AS PriceId ,
-						C.Name AS PriceName ,
-						A.Quantity AS Quantity ,
-						A.Total AS Total ,
-						A.Total_deliver AS TotalDeliver ,
-						A.Total_of_assured AS TotalOfAssured ,
-						A.Is_checkplus AS IsCheckPlus ,
-						A.Is_deliver AS IsDeliver ,
-						A.Created_at AS CreatedAt ,
-						A.Updated_at AS UpdatedAt ,
-						A.Is_packed AS IsPacked ,
-						A.Detail_packed AS DetailPacked ,					
-						A.IsModified AS IsModified ,
-						A.Total_initial AS TotalInitial ,
-						A.CompanyID AS CompanyId ,
-						A.ShippingCompany ,
-						A.RequirePacking ,
-						A.Address AS Address ,
-						A.ZipCode AS ZipCode ,
-						A.Region AS Region ,
-						A.State AS State ,
-						A.City AS City ,
-						A.ExteriorNumber AS ExteriorNumber ,
-						A.InteriorNumber AS InteriorNumber ,
-						A.Phone AS Phone 
+
+						C.Name AS PriceListName ,
+
+						D.Name AS UserName ,
+
+						E.Code AS CustomerCode ,
+						CONCAT(E.FirstName,' ',E.LastName) AS CustomerFullName 
 					FROM inserted AS A 
 						LEFT OUTER JOIN CatStatus B
-							ON A.StatusID = B.Id
+							ON A.StatusId = B.Id
 						LEFT OUTER JOIN ProductListPrice C 
-							ON A.Price_type = C.Id 
+							ON A.PriceListId = C.Id 
 						LEFT OUTER JOIN Users D
-							ON A.UserID = B.Id 
+							ON A.UserId = B.Id 
 						LEFT OUTER JOIN Customers E
-							ON A.CustomerID = E.Id 
+							ON A.CustomerId = E.Id 
 					FOR JSON PATH
 				), i.UserId
         FROM inserted i;
@@ -120,49 +142,60 @@ BEGIN
         SELECT d.ID, 'DELETE', 'quote-deleted', 
                (
 					SELECT 
-						A.ID AS Id ,
-						A.CustomerID AS CustomerId ,
-						E.Code , 
-						CONCAT_WS(E.FirstName,' ',E.LastName) AS CustomerFullName , 
-						D.Name ,
-						A.UserID AS UserId ,
-						A.StatusID AS StatusId ,
+						A.Id ,
+						A.CompanyId ,
+						A.CustomerId ,
+						A.SellerId ,
+						A.UserId ,
+						A.StatusId ,
+						A.PriceListId ,
+						A.RequiredDeliver ,
+						A.DeliveryTypeId ,
+						A.ParcelServiceId ,
+						A.FreightCompanyId ,
+						A.RequiredInvoice ,
+						A.RequiredCheckPlus ,
+						A.RequiredPacking ,
+						A.RequiredSafeguard ,
+						A.Quantity ,
+						A.DeliverAmount ,
+						A.CheckPlusAmount ,
+						A.SafeguardAmount ,
+						A.DiscountAmount ,
+						A.SubTotal ,
+						A.Total ,
+						A.Address ,
+						A.ZipCode ,
+						A.Region ,
+						A.State ,
+						A.City ,
+						A.ExteriorNumber ,
+						A.InteriorNumber ,
+						A.Phone ,
+						A.Commentary ,
+						A.Observations ,
+						A.IsOrder ,
+						A.CreatedAt ,
+						A.UpdatedAt ,
+						A.Folio ,
+
 						B.Name AS StatusName ,
-						A.Commentary AS Commentary ,
-						A.Price_type AS PriceId ,
-						C.Name AS PriceName ,
-						A.Quantity AS Quantity ,
-						A.Total AS Total ,
-						A.Total_deliver AS TotalDeliver ,
-						A.Total_of_assured AS TotalOfAssured ,
-						A.Is_checkplus AS IsCheckPlus ,
-						A.Is_deliver AS IsDeliver ,
-						A.Created_at AS CreatedAt ,
-						A.Updated_at AS UpdatedAt ,
-						A.Is_packed AS IsPacked ,
-						A.Detail_packed AS DetailPacked ,					
-						A.IsModified AS IsModified ,
-						A.Total_initial AS TotalInitial ,
-						A.CompanyID AS CompanyId ,
-						A.ShippingCompany ,
-						A.RequirePacking ,
-						A.Address AS Address ,
-						A.ZipCode AS ZipCode ,
-						A.Region AS Region ,
-						A.State AS State ,
-						A.City AS City ,
-						A.ExteriorNumber AS ExteriorNumber ,
-						A.InteriorNumber AS InteriorNumber ,
-						A.Phone AS Phone 
+
+						C.Name AS PriceListName ,
+
+						D.Name AS UserName ,
+
+						E.Code AS CustomerCode ,
+						CONCAT(E.FirstName,' ',E.LastName) AS CustomerFullName 
 					FROM deleted AS A 
 						LEFT OUTER JOIN CatStatus B
-							ON A.StatusID = B.Id
+							ON A.StatusId = B.Id
 						LEFT OUTER JOIN ProductListPrice C 
-							ON A.Price_type = C.Id 
+							ON A.PriceListId = C.Id 
 						LEFT OUTER JOIN Users D
-							ON A.UserID = B.Id 
+							ON A.UserId = B.Id 
 						LEFT OUTER JOIN Customers E
-							ON A.CustomerID = E.Id 
+							ON A.CustomerId = E.Id 
 					FOR JSON PATH					
 				), d.UserId
         FROM deleted d;
