@@ -5,7 +5,9 @@ CREATE TABLE OrdersTrackerGeneral(
 	ParcelServiceId INT NOT NULL , 
 	TrackerNumber VARCHAR(200) NOT NULL ,
 	TrackerUrl VARCHAR(250) NULL ,
+	IsRecollected BIT NOT NULL DEFAULT 0  ,
 	UserId INT NOT NULL , 
+	StatusId INT NOT NULL DEFAULT 1 ,
 	CreatedAt DATETIME2 NOT NULL DEFAULT GETDATE() , 
 	UpdatedAt DATETIME2 NOT NULL DEFAULT GETDATE()
 )

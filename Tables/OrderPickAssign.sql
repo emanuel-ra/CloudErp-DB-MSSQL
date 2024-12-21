@@ -34,7 +34,8 @@ CREATE TABLE OrderPickAssign(
 	ValidatedObservations varchar(500) NULL ,
 	NumberOfPallets INT  ,
 	TableNumber VARCHAR(100) ,
-	EstimateDeliveredDate DATE
+	EstimateDeliveredDate DATE ,
+	PackingObservations VARCHAR(500) NULL 
 ) 
 
 

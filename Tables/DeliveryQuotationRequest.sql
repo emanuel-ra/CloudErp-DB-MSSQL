@@ -25,5 +25,5 @@ CREATE TABLE DeliveryQuotationRequest (
     -- Timestamps
     CreatedAt DATETIME2 NOT NULL DEFAULT GETDATE(), -- Request creation timestamp
     UpdatedAt DATETIME2 NOT NULL DEFAULT GETDATE(), -- Last updated timestamp
-    Granted DATETIME2 NULL                          -- Timestamp when the request was granted
+    GrantedAt DATETIME2 NULL                          -- Timestamp when the request was granted
 );

@@ -7,6 +7,7 @@ CREATE TABLE Companies(
     Email VARCHAR(250) , 
     ContactEmail VARCHAR(250) , 
     ContactName VARCHAR(250) , 
+    ContactPhone VARCHAR(50) 
     TaxId  VARCHAR(20) , 
     TaxName VARCHAR(250) , 
     TaxRegimeCode VARCHAR(250) , 

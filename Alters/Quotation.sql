@@ -14,3 +14,5 @@ ALTER TABLE Quotation ADD City VARCHAR(200)
 ALTER TABLE Quotation ADD ExteriorNumber VARCHAR(50)  
 ALTER TABLE Quotation ADD InteriorNumber VARCHAR(50)  
 ALTER TABLE Quotation ADD Phone VARCHAR(200)  
+
+ALTER TABLE Quotation ADD Folio VARCHAR(100)
