@@ -168,5 +168,12 @@ SET IDENTITY_INSERT CatStatus OFF
 GO
 
 SET IDENTITY_INSERT CatStatus ON
-INSERT INTO CatStatus(Id,Name) 	VALUES (29,'Pedido Validado')
+INSERT INTO CatStatus(Id,Name) 	VALUES (29,'Autorizado')
+SET IDENTITY_INSERT CatStatus OFF
+
+
+GO
+
+SET IDENTITY_INSERT CatStatus ON
+INSERT INTO CatStatus(Id,Name) 	VALUES (30,'Rechazado')
 SET IDENTITY_INSERT CatStatus OFF
