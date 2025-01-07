@@ -35,7 +35,9 @@ CREATE TABLE OrderPickAssign(
 	NumberOfPallets INT  ,
 	TableNumber VARCHAR(100) ,
 	EstimateDeliveredDate DATE ,
-	PackingObservations VARCHAR(500) NULL 
+	PackingObservations VARCHAR(500) NULL ,
+	IsHide BIT ,
+	IsCancelled BIT 
 ) 
 
 
